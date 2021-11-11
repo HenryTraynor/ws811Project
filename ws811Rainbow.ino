@@ -37,17 +37,12 @@ struct Loop strip0loop0(1, false, 1);
 
 void setup() {
 
-  //Your setup here:
-
   strip_0.strip.begin();
   strip_0.strip.setBrightness(100
   );
 }
 
 void loop() {
-
-  //Your code here:
-
   strips_loop();
 }
 
